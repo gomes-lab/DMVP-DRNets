@@ -2,7 +2,7 @@
 
 ## Main contributors
 
-This code and data were prepared by:
+This code was prepared by:
 
 - Di Chen (Cornell University, Dept. of Computer Science), dc874@cornell.edu
 - Yiwei Bai (Cornell University, Dept. of Computer Science), yb263@cornell.edu
