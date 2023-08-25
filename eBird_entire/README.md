@@ -8,10 +8,6 @@
 - Torchvision 0.4.0
 - Scikit-learn 0.19.2
 
-## eBird dataset
-
-The eBird dataset is provided in a separate package due to its size. Extract **eBird_data.csv** and **map_inference_data.csv** into the **./data/** subdirectory. 
-
 ## Experiment with data splitting
 
 The dataset can be split into small overlapping regions to smooth the predictions. If this is desired, run the following:
