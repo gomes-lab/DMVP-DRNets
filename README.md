@@ -34,6 +34,6 @@ Helper scripts also assume a Bourne or Bash shell, however they are short and ca
 More information about each application and dataset is included in the readme.md files in each subdirectory. The scripts and instructions for replicating the results from each experiment in the publication are in these subdirectories:
 
 - **BBS** : experiments using the 2011 Breeding Bird Survey (BBS) dataset
-- **eBird_entire** : experiments using the entire eBird dataset to examine the ecology utility
+- **eBird_entire** : experiments using the entire eBird dataset to showcase the ecological utility
 - **eBird_subsets** : experiments using the subsets of eBird dataset with different scales 
 - **Norberg2019** : experiments using the 5 species datasets from **Norbeg et. al 2019**
