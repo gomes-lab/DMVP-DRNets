@@ -1,4 +1,4 @@
-This folder contains the smallest subset of the eBird dataset used for experiments.
+This folder contains the smallest subset of the eBird dataset used for experiments as an example.
 
 **St_1_ebird.csv**: The spatial information of the training set of the ebird dataset.
 
