@@ -1,0 +1,10 @@
+Loading required package: usethis
+Loading required package: coda
+Error in asMethod(object) : 
+  Cholmod error 'problem too large' at file ../Core/cholmod_dense.c, line 105
+Calls: sampleMcmc ... chol.default -> as.matrix -> as.matrix.Matrix -> as -> asMethod
+Execution halted
+
+real	12m11.615s
+user	12m17.817s
+sys	0m58.109s
