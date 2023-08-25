@@ -71,5 +71,3 @@ The split real-world test set logs will be stored under **./data/small_map_data[
 - The real-world prediction step detects the best model number from the evaluation test step logs. Some regions might have a small number of data points such that no good model was found. In this case, the model number will be set to **0** or **-1**, and the total number of such regions are computed and printed as **Corrupt: xxx**. There will be corresponding error messages in the log which can be ignored, as they result from insufficient training data.
 
 - The split test has a long runtime, so we highly recommend parallel execution.
-
-- For more information on the data preprocessing, see **./data/readme.md** .
