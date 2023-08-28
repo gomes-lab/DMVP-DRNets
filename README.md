@@ -11,7 +11,7 @@ This code was prepared by:
 
 ## Citation
 
-This work accompanies the following publication:
+This code accompanies the following publication:
 
 - Courtney L. Davis, Yiwei Bai, Di Chen, Orin Robinson, Viviana R. Gutierrez, Carla P. Gomes, and Daniel Fink. Deep learning with citizen science data enables estimation of species diversity and composition at continental extents. Accepted at Ecology.
 
