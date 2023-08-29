@@ -11,9 +11,9 @@ with open("generated_box.pkl", "rb") as f:
 
 for ii in range(len(generated_box)):
     for jj in range(1, 13):
-        if not os.path.exists("./small_region/small_case%d_daniel_bird_%d.npy" % (ii, jj)):
+        if not os.path.exists("./small_region/small_case%d_bird_%d.npy" % (ii, jj)):
             continue
-        a = np.load("./small_region/small_case%d_daniel_bird_%d.npy" % (ii, jj))
+        a = np.load("./small_region/small_case%d_bird_%d.npy" % (ii, jj))
         num = a.shape[0]
 
         train_idx = []
@@ -39,7 +39,7 @@ for ii in range(len(generated_box)):
         print ("val: ", val_idx.shape)
         print ("test: ", test_idx.shape)
 
-        np.save("./small_region/small_case%d_daniel_bird_train_idx_%d.npy" % (ii, jj), train_idx)
-        np.save("./small_region/small_case%d_daniel_bird_val_idx_%d.npy" % (ii, jj), val_idx)
-        np.save("./small_region/small_case%d_daniel_bird_test_idx_%d.npy" % (ii, jj), test_idx)
+        np.save("./small_region/small_case%d_bird_train_idx_%d.npy" % (ii, jj), train_idx)
+        np.save("./small_region/small_case%d_bird_val_idx_%d.npy" % (ii, jj), val_idx)
+        np.save("./small_region/small_case%d_bird_test_idx_%d.npy" % (ii, jj), test_idx)
 
