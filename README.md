@@ -1,4 +1,4 @@
-# Deep Reasoning Network Implementation of a Deep Multivariate Probit Model (DMVP-DRNets) Modeling Code
+# Deep Reasoning Network Implementation of a Deep Multivariate Probit Model (DMVP-DRNets) Code
 
 ## Main contributors
 
