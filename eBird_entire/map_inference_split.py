@@ -22,7 +22,7 @@ for cnt in range(1, 13):
             cur += 1
             print (cur)
             j_name = "test_bird_realworld_%d_%d" % (i, j)
-            command = "python3 test.py --checkpoint_path ./data/small_model_mon%d/model_%d_%d/model-%d --summary_dir ./summary_%d_%d --visual_dir ./vis_%d_%d --data_dir ./data/small_esrd/small_daniel_esrd_%d_%d.npy --test_idx ./data/small_esrd/case%d_daniel_bird_test_idx_%d.npy --r_dim 500 --r_max_dim 500 --mon %d --case %d | tee ./data/small_map_data%d/%s" % (cnt, i, j, model_num[cur], i, j, i, j, i, j, i, j, j, i, cnt, j_name)
+            command = "python3 test.py --checkpoint_path ./data/small_model_mon%d/model_%d_%d/model-%d --summary_dir ./summary_%d_%d --visual_dir ./vis_%d_%d --data_dir ./data/small_esrd/small_esrd_%d_%d.npy --test_idx ./data/small_esrd/case%d_bird_test_idx_%d.npy --r_dim 500 --r_max_dim 500 --mon %d --case %d | tee ./data/small_map_data%d/%s" % (cnt, i, j, model_num[cur], i, j, i, j, i, j, i, j, j, i, cnt, j_name)
 
             print (command)
             os.system(command)
