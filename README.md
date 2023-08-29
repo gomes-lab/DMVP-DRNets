@@ -17,7 +17,7 @@ This code accompanies the following publication:
 
 Please see the **LICENSE** file for additional terms of use, and for information on acquiring data for other purposes.
 
-This repository is archived on Zenodo [![DOI](https://zenodo.org/badge/683119365.svg)](https://zenodo.org/badge/latestdoi/683119365)
+This repository is archived on Zenodo [![DOI](https://zenodo.org/badge/683119365.svg)](https://zenodo.org/badge/latestdoi/683119365).
 
 ## Requirements
 
