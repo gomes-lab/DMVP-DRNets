@@ -11,10 +11,10 @@ for j in range(1, 13):
     pt2cnt = {}
     with open("box_info_%d.csv" % (j), "w") as f:
         for i in range(482):
-            if not os.path.exists("/home/shared/data4esrd/small_region/small_case%d_daniel_bird_%d.npy" % (i + 1, j)):
+            if not os.path.exists("/home/shared/data4esrd/small_region/small_case%d_bird_%d.npy" % (i + 1, j)):
                 #f.write("empty" + "\n")
                 continue
-            a = np.load("/home/shared/data4esrd/small_region/small_case%d_daniel_bird_%d.npy" % (i + 1, j))
+            a = np.load("/home/shared/data4esrd/small_region/small_case%d_bird_%d.npy" % (i + 1, j))
             locs = set()
             #f.write(str(i) + "," + str(generated_box[i][0]) + "," + str(generated_box[i][1]) + "," + str(a.shape[0]) + "\n") 
             for k in range(a.shape[0]):
